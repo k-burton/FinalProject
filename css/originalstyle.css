@@ -1,0 +1,208 @@
+.clear {
+	clear: both;
+}
+.headerbar {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  /*line-height: 108px;*/
+  height: 180px;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  font-family: 'Allerta', sans-serif;
+  z-index: 200;
+}
+.header {
+  height: 650px;
+  background: url(../images/worldmapdark.jpg);
+  background-size: cover;
+  margin: 0px;
+  text-align: center;
+}
+.title {
+  color: lightgreen;
+  font-size: 50px;
+  font-family: 'Bungee Shade', cursive;
+  padding-top: 250px;
+  margin-bottom: 15px;
+}
+.menu {
+  color: lightgreen;
+  font-family: 'Allerta', sans-serif;
+  margin-top: 20px;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menuitems {
+  display: inline-block;
+  margin-left: 25px;
+  padding: 6px;
+  border: lightgreen 2px solid;
+  border-radius: 10px;
+}
+.menuitems a {
+  text-decoration: none;
+  color: lightgreen;
+}
+/*a.menu:link {
+  text-decoration: none;
+  color: black;
+}
+a.menu:visited {
+  text-decoration: none;
+  color: black;
+}*/
+
+.tagline {
+  color: lightgreen;
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: 'Allerta', sans-serif;
+  text-align: center;
+}
+
+/*.carousel-container, .carousel-item {
+  height: 600px;
+  width: 100%;
+}*/
+
+/*.carousel-item-1 {
+  background: url(../images/choro1pic.jpg) center center;
+  /*background-size: cover;*/
+}
+/*.carousel-item-2 {
+  background: url(../images/choro2pic.jpg) center center;
+  background-size: cover;
+}
+.carousel-item-3 {
+  background: url(../images/addfeature.jpg) center center;
+  background-size: cover;
+}
+.carousel-item-4 {
+  background: url(../images/comparison.jpg) center center;
+  background-size: cover;
+}
+.carousel-item-5 {
+  background: url(../images/banff.jpg) center center;
+  background-size: cover;
+}*/
+
+/*.carousel-title {
+  color: white;
+  font-size: 30px;
+  margin-top: 200px;
+  max-height: 105px;
+  text-align: center;
+  text-transform: capitalize;
+}*/
+
+/*.carousel-byline {
+  color: white;
+  font-size: 20px;
+  margin-top: 16px;
+  text-align: center;
+  text-transform: capitalize;
+}*/
+.thumnailrow {
+  height: 400px;
+}
+.thumbnails {
+  /*box-shadow: 2px solid grey;*/
+  margin-top: 50px;
+  margin-left: 2%;
+  margin-right: 2%;
+  float: left;
+  border-radius: 10px;
+  width: 280px;
+  height: 300px;
+  background-size: cover;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.row1 {
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+}
+.row2 {
+	position: relative;
+  margin: 0 auto;
+  width: 650px;
+	margin-top: -200;
+  /*background-color: lightblue; - this didn't work, but putting the width at 1000px did.*/
+}
+/*.row1 {
+
+}
+.row2 {
+  width: 80%;
+  margin-left: 25%;
+  margin-right: 10%
+}*/
+
+/*margin*/
+.choro1 {
+	background-image: url("../images/chorozoom1.jpg");
+}
+.choro2 {
+  background-image: url("../images/choro2pic.jpg");
+}
+.addfeature {
+  background-image: url("../images/addfeature.jpg");
+}
+.storelocator {
+  background-image: url("../images/acadia.jpg");
+}
+.otherlessons {
+  background-image: url("../images/computerpic.jpg");
+}
+
+/*make each photo uniform with a color overlay, or make them black and white*/
+
+
+
+
+/*to make an a tag look normal (not like a hyperlink)
+text-decoration: none;
+color: black;*/
+
+
+/*FIRST PAGE*/
+.SPheader {
+	background-color:#1B1A46;
+	height: 150px;
+}
+.SPtitle {
+  color: lightgreen;
+  font-size: 50px;
+  font-family: 'Bungee Shade', cursive;
+  padding-top: 10px;
+  /*margin-bottom: 15px;*/
+}
+.SPmenu {
+  color: lightgreen;
+  font-family: 'Allerta', sans-serif;
+  /*margin-top: 20px;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;*/
+}
+.SPmenuitems {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 200px;
+  /*display: inline-block;*/
+  /*margin-left: 25px;
+  padding: 6px;*/
+  border: lightgreen 2px solid;
+  border-radius: 10px;
+}
+.SPmenuitems a {
+  text-decoration: none;
+  color: lightgreen;
+}
