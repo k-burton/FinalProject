@@ -93,3 +93,14 @@ $(".li3").click(function() {
 //         scrollTop: $("#elementtoScrollToID").offset().top
 //     }, 2000);
 // });
+
+$('.choro1').hover(
+
+               function () {
+                  $(this).css({"background-color":"red"});
+               },
+
+               function () {
+                  $(this).css({"background-color":"blue"});
+               }
+            );

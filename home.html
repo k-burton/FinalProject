@@ -36,114 +36,102 @@
   <h2 class="lessons">Lessons Learned</h2>
   <section class="hexsection">
     <div class="thumbnailrow row1 clear">
-        <div class="thumbnails choro1 overlay"><a href=""><img src="images/chorozoom1.jpg" height="100%" width="auto"></a><p class="hextags">Choropleth Map: 1</p></div>
-        <div class="thumbnails choro2 overlay"><a href=""><img src="images/choro2pic.jpg" height="100%" width="auto"></a><p class="hextags">Choropleth Map: 2</p></div>
-        <div class="thumbnails addfeature overlay"><a href=""><img src="images/addfeature.jpg" height="100%" width="auto"></a><p class="hextags">Add Feature</p></div>
+      <div class="thumbnails choro1 overlay"><a href=""><img src="images/choro1d.jpg" height="100%" width="auto"></a><p class="hextags">Choropleth Map: 1</p></div>
+      <div class="thumbnails choro2 overlay"><a href=""><img src="images/mapboxcodepic.jpg" height="100%" width="auto"></a><p class="hextags">Choropleth Map: 2</p></div>
+      <div class="thumbnails addfeature overlay"><a href=""><img src="images/hex3imgb.jpg" height="100%" width="auto"></a><p class="hextags">Add Feature</p></div>
     </div>
     <div class="thumbnailrow row2 clear">
-      <div class="thumbnails storelocator overlay"><a href=""><img src="images/acadia.jpg" height="100%" width="auto"></a><p class="hextags">Store Locator</p></div>
-      <div class="thumbnails otherlessons overlay"><a href=""><img src="images/computerpic.jpg" height="100%" width="auto"></a><p class="hextags">Other Lessons</p></div>
+      <div class="thumbnails storelocator overlay"><a href=""><img src="images/buffer.jpg" height="100%" width="auto"></a><p class="hextags">Store Locator</p></div>
+      <div class="thumbnails otherlessons overlay"><a href=""><img src="images/Newaddlocation.jpg" height="100%" width="auto"></a><p class="hextags">Other Lessons</p></div>
     </div>
+    <!-- <section class="hexcover">
+      <div class="thumbnailrow row1 coverrow1 clear">
+        <div class="thumbnails overlay"><p class="hextags">Choropleth Map: 1</p></div>
+        <div class="thumbnails overlay"><p class="hextags">Choropleth Map: 2</p></div>
+        <div class="thumbnails overlay"><p class="hextags">Add Feature</p></div>
+      </div>
+      <div class="thumbnailrow row2 coverrow2 clear">
+        <div class="thumbnails overlay"><p class="hextags">Store Locator</p></div>
+        <div class="thumbnails overlay"><p class="hextags">Other Lessons</p></div>
+      </div>
+    </section> -->
   </section>
-<!-- CHOROPLETH 1 SECTION -->
+<!-- Lesson 1 -->
   <div class="line line1"></div>
   <section class="maincontent">
-    <h2 class="SPtitle">Make a Choropleth Map: Part 1</h2>
+    <h2 class="SPtitle">Lesson 1: Mapbox Studio</h2>
     <div class="fleximages">
       <img src="images/choro1pic.jpg" class="allimages" alt="Choropleth Map 1"></img>
     </div>
-    <h3 class="SPlessons">Lessons learned</h3>
-    <div class="listdivs">
-      <ul class="SPlists">
-        <li>point 1</li>
-        <li>point 2</li>
-        <li>point 3</li>
-        <li>point 4</li>
-      </ul>
-    </div>
-    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa semper, varius nulla at, elementum magna. Phasellus non blandit felis. Duis eget augue consectetur, aliquam tortor consequat, laoreet eros. Pellentesque aliquam cursus pretium. Pellentesque porttitor, magna at rutrum pretium, lorem sapien aliquam diam, eu pretium erat leo ac massa. Duis quam diam, ultricies et nibh ut, dapibus malesuada metus. Aenean sit amet lorem ut ex finibus tempor. Vivamus ut dapibus sapien. Aliquam congue auctor nulla, a consectetur elit congue sit amet. Quisque sed quam et risus molestie feugiat vitae at nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et enim dui. Donec tempor ex in magna sodales lacinia.</p>
+    <h3 class="SPlessons">Think of Mapbox Studio as the Symbology tab in ArcGIS for desktop.</h3>
+      <!-- <p class="focalsentance">
+        Think of Mapbox Studio as the Symbology tab in ArcGIS for desktop.
+      </p> -->
+    <p class="text">Despite having a <span class="interface">very similar interface</span> to that of arcGIS's home screen,
+      Mapbox Studio is not the place where you watch your analysis as it's carried out; that happens in your browser. Based on my history
+      with arcGIS, my very first assumption upon opening Mapbox Studio for the first time was that this was the central location for everything
+      to happen. The layers of the map are visible in the left column, and it even shows what each layer's styling is in the thumbnail. I realized after
+      some clicking around that this was not </p>
     <div class="backtotop"><a href="">Back To Top</a></div>
   </section>
-<!-- CHOROPLETH 2 SECTION -->
+<!-- Lesson 2 -->
   <div class="line line2"></div>
   <section class="maincontent">
-    <h2 class="SPtitle">Choropleth Map Part 2: Publish with Mapbox GL JS</h2>
+    <h2 class="SPtitle">Lesson 2: is code required?</h2>
     <div class="fleximages">
-      <img src="images/choro2pic.jpg" class="allimages" alt="Choropleth Map 2" height="400px" width="auto"></img>
+      <img src="images/mapboxcodepic.jpg" class="allimages" alt="Code Picture" height="400px" width="auto"></img>
     </div>
-    <h3 class="SPlessons">Lessons learned</h3>
-    <div class="listdivs">
-      <ul class="SPlists">
-        <li>point 1</li>
-        <li>point 2</li>
-        <li>point 3</li>
-        <li>point 4</li>
-      </ul>
-    </div>
-    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa semper, varius nulla at, elementum magna. Phasellus non blandit felis. Duis eget augue consectetur, aliquam tortor consequat, laoreet eros. Pellentesque aliquam cursus pretium. Pellentesque porttitor, magna at rutrum pretium, lorem sapien aliquam diam, eu pretium erat leo ac massa. Duis quam diam, ultricies et nibh ut, dapibus malesuada metus. Aenean sit amet lorem ut ex finibus tempor. Vivamus ut dapibus sapien. Aliquam congue auctor nulla, a consectetur elit congue sit amet. Quisque sed quam et risus molestie feugiat vitae at nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et enim dui. Donec tempor ex in magna sodales lacinia.</p>
+    <h3 class="SPlessons">Not knowing when a tutorial would require code made getting through the content difficult.</h3>
+
+    <p class="text">
+      After easily completing the first part of the Choropleth Map tutorial, I continued on to part 2.
+      However, there was no indication that I would need to code for this. The realization that much of Mapbox’s functionality
+      was out of my reach came after a few more instances of failed tutorials.</p>
     <div class="backtotop"><a href="">Back To Top</a></div>
   </section>
-<!-- ADD FEATURE SECTION -->
+<!-- Lesson 3 -->
   <div class="line line3"></div>
   <section class="maincontent">
-    <h2 class="SPtitle">Add a Feature</h2>
+    <h2 class="SPtitle">Lesson 3: answering some questions</h2>
     <div class="fleximages">
-      <img src="images/addfeature.jpg" alt="Add Feature" class="allimages" height="400px" width="auto"></img>
+      <img src="images/hex3imgb.jpg" alt="Questions Image" class="allimages" height="400px" width="auto"></img>
     </div>
-    <h3 class="SPlessons">Lessons learned</h3>
-    <div class="listdivs">
-      <ul class="SPlists">
-        <li>point 1</li>
-        <li>point 2</li>
-        <li>point 3</li>
-        <li>point 4</li>
-      </ul>
-    </div>
-    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa semper, varius nulla at, elementum magna. Phasellus non blandit felis. Duis eget augue consectetur, aliquam tortor consequat, laoreet eros. Pellentesque aliquam cursus pretium. Pellentesque porttitor, magna at rutrum pretium, lorem sapien aliquam diam, eu pretium erat leo ac massa. Duis quam diam, ultricies et nibh ut, dapibus malesuada metus. Aenean sit amet lorem ut ex finibus tempor. Vivamus ut dapibus sapien. Aliquam congue auctor nulla, a consectetur elit congue sit amet. Quisque sed quam et risus molestie feugiat vitae at nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et enim dui. Donec tempor ex in magna sodales lacinia.</p>
+    <h3 class="SPlessons">Beofore I could dive into the world of Mapbox code, I had to get answers to some important, basic questions...</h3>
+    <p class="text">
+      What is a text editor?<br>
+      How do html code and JavaScript go together?<br>
+      Where do I see what's happening to my map?<br>
+      How do you access geospatial tools? And are they ready to go?<br>
+      This is where part 2 of the knowledge gap lies. Having taken a front end web development course and learning the basics of HTML CSS and JavaScript, I still haven’t bridged this part of the gap.
+    </p>
     <div class="backtotop"><a href="">Back To Top</a></div>
   </section>
-<!-- STORE LOCATOR SECTION -->
+<!-- Lesson 4 -->
   <div class="line line4"></div>
   <section class="maincontent">
-    <h2 class="SPtitle">Create a Store Locator</h2>
+    <h2 class="SPtitle">Lesson 4: Those basic analysis tools you’re looking for – buffer, measure, etc, etc, etc, all live in the Mapbox Turf API</h2>
     <div class="fleximages">
-      <img src="images/acadia.jpg" alt="Store Locator" class="allimages" height="400px" width="auto"></img>
+      <img src="images/buffer.jpg" alt="Store Locator" class="allimages" height="400px" width="auto"></img>
     </div>
-    <h3 class="SPlessons">Lessons learned</h3>
-    <div class="listdivs">
-      <ul class="SPlists">
-        <li>point 1</li>
-        <li>point 2</li>
-        <li>point 3</li>
-        <li>point 4</li>
-      </ul>
-    </div>
-    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa semper, varius nulla at, elementum magna. Phasellus non blandit felis. Duis eget augue consectetur, aliquam tortor consequat, laoreet eros. Pellentesque aliquam cursus pretium. Pellentesque porttitor, magna at rutrum pretium, lorem sapien aliquam diam, eu pretium erat leo ac massa. Duis quam diam, ultricies et nibh ut, dapibus malesuada metus. Aenean sit amet lorem ut ex finibus tempor. Vivamus ut dapibus sapien. Aliquam congue auctor nulla, a consectetur elit congue sit amet. Quisque sed quam et risus molestie feugiat vitae at nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et enim dui. Donec tempor ex in magna sodales lacinia.</p>
+    <p class="text">
+      These were the first tools I went looking for, as they were the first things I learned in GIS courses. Even these
+      most basic functions live in an API, and require programming.</p>
     <div class="backtotop"><a href="">Back To Top</a></div>
   </section>
-<!-- OTHER LESSONS SECTION -->
+<!-- Lesson 5 -->
   <div class="line line5"></div>
   <section class="maincontent">
     <h2 class="SPtitle">Other Lessons</h2>
     <div class="fleximages">
-      <img src="images/comparison.jpg" alt="Comparison" class="allimages" height="400px" width="auto"></img>
+      <img src="images/Newaddlocation.jpg" alt="Comparison" class="allimages" height="400px" width="auto"></img>
     </div>
-    <h3 class="SPlessons">Lessons learned</h3>
-    <div class="listdivs">
-      <ul class="SPlists">
-        <li>point 1</li>
-        <li>point 2</li>
-        <li>point 3</li>
-        <li>point 4</li>
-      </ul>
-    </div>
-    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa semper, varius nulla at, elementum magna. Phasellus non blandit felis. Duis eget augue consectetur, aliquam tortor consequat, laoreet eros. Pellentesque aliquam cursus pretium. Pellentesque porttitor, magna at rutrum pretium, lorem sapien aliquam diam, eu pretium erat leo ac massa. Duis quam diam, ultricies et nibh ut, dapibus malesuada metus. Aenean sit amet lorem ut ex finibus tempor. Vivamus ut dapibus sapien. Aliquam congue auctor nulla, a consectetur elit congue sit amet. Quisque sed quam et risus molestie feugiat vitae at nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et enim dui. Donec tempor ex in magna sodales lacinia.</p>
-    <div class="backtotop spacer"><a href="">Back To Top</a></div>
+    <h3 class="SPlessons">Because Mapbox was built with the browser in mind, there are some capabilities that are superior to their counterparts on ArcGIS online.</h3>
+    <p class="text">A standout capability of Mapbox's is adding a feature with a photo and link in a popup thumbnail.</p>
+    <div class="backtotop"><a href="">Back To Top</a></div>
+    <div class="line"></div>
   </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="js/noframework.waypoints.min.js"></script>
   <script src="js/main.js"></script>
-
 </body>
-
 </html>

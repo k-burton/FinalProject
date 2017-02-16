@@ -58,18 +58,37 @@
 	background-color: lightgrey;
 }
 .hexsection {
+	position: relative;
   height: 480px;
 	padding-top: 40px;
 }
 .thumbnails {
 	position: relative;
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: .6%;
+  margin-right: .6%;
   width: 240px;
   height: 260px;
   background-size: cover;
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+/*.thumnails:hover {
+	background-color: blue;
+
+}*/
+/*.overlay {
+ position: relative;
+ margin-left: 1%;
+ margin-right: 1%;
+ width: 240px;
+ height: 260px;
+ background-color: black;
+ -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}*/
+.hexcover {
+	position: relative;
+	top: -480px;
 }
 .row1 {
 	display: flex;
@@ -81,7 +100,6 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 	justify-content: center;
 	position: relative;
 	bottom: 46px;
-	z-index: 100;
 }
 
 /*make each photo uniform with a color overlay, or make them black and white*/
@@ -100,6 +118,7 @@ color: black;*/
 	position: fixed;
 	z-index: 1000;
 	top: 0;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, .9);
 }
 .stickytitle {
   color: #c4efaa;
@@ -141,6 +160,11 @@ color: black;*/
 .allimages {
 	height: 400px;
 	width: auto;
+	box-shadow: 5px 5px 5px #888888;
+}
+.globe {
+	height: 400px;
+	width: auto;
 }
 .SPtitle {
 	display: flex;
@@ -152,13 +176,13 @@ color: black;*/
 	margin: 50px 0;
 }
 .SPlessons {
-	margin-top: 20px;
+	margin: 30px 0 20px 0;
 	font-family: 'Allerta', sans-serif;
 	font-size: 30px;
 	color: #1B1A46;
 	margin-left: 4%;
 }
-.SPlists {
+.focalsentance {
 	margin: 20px 0 20px 6%;
 	font-family: 'Allerta', sans-serif;
 	font-size: 20px;
@@ -222,9 +246,6 @@ height: 80px;
 .sppics {
 	float: right;
 	margin: 0 5%;
-}
-.whatidid {
-	border: 1.5px solid lightgrey;
 }
 .hextags {
 	position: relative;
@@ -319,6 +340,7 @@ height: 80px;
 		position: fixed;
 		z-index: 100;
 		top: 0;
+		box-shadow: 5px 5px 5px #888888;
 	}
 	.stickytitle {
 	  display: none;
@@ -347,6 +369,10 @@ height: 80px;
 		height: 200px;
 		width: auto;
 	}
+	.globe {
+		height: 200px;
+		width: auto;
+	}
 	.SPtitle {
 		display: flex;
 		justify-content: center;
@@ -364,7 +390,7 @@ height: 80px;
 		color: #1B1A46;
 		margin-left: 4%;
 	}
-	.SPlists {
+	.focalsentance {
 		margin: 10px 0 10px 6%;
 		font-family: 'Allerta', sans-serif;
 		font-size: 15px;
@@ -499,6 +525,10 @@ height: 80px;
 		height: 200px;
 		width: auto;
 	}
+	.globe {
+		height: 200px;
+		width: auto;
+	}
 	.SPtitle {
 		display: flex;
 		justify-content: center;
@@ -516,7 +546,7 @@ height: 80px;
 		color: #1B1A46;
 		margin-left: 4%;
 	}
-	.SPlists {
+	.focalsentance {
 		margin: 10px 0 10px 6%;
 		font-family: 'Allerta', sans-serif;
 		font-size: 15px;
