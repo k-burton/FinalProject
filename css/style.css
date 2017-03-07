@@ -21,7 +21,7 @@
   color: #c4efaa;
   padding-top: 10px;
   font-size: 20px;
-  font-family: 'Allerta', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .tagline a {
 	color: #c4efaa;
@@ -33,7 +33,7 @@
 	justify-content: center;
 	margin-top: 25px;
 	color: #c4efaa;
-	font-family: 'Allerta', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .menuitems {
 	font-size: 15px;
@@ -50,9 +50,9 @@
 .lessons {
 	display: flex;
 	justify-content: center;
-	font-family: 'Allerta', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #1B1A46;
-	text-shadow: 2px 2px grey;
+	text-shadow: 1px 1px grey;
 	font-size: 30px;
 	line-height: 2.5;
 	background-color: lightgrey;
@@ -146,7 +146,7 @@ color: black;*/
   padding: 6px;
   border: #c4efaa 2px solid;
   border-radius: 10px;
-	font-family: 'Allerta', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 }
 .stickyitems a {
@@ -169,29 +169,30 @@ color: black;*/
 .SPtitle {
 	display: flex;
 	justify-content: center;
-	font-family: 'Allerta', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #1B1A46;
-	text-shadow: 2px 2px grey;
+	text-shadow: 1px 1px grey;
 	font-size: 30px;
 	margin: 50px 0;
 }
 .SPlessons {
 	margin: 30px 0 20px 0;
-	font-family: 'Allerta', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
 	color: #1B1A46;
 	margin-left: 4%;
+	line-height: 1.2;
 }
 .focalsentance {
 	margin: 20px 0 20px 6%;
-	font-family: 'Allerta', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	color: #1B1A46;
 	line-height: 1.5;
 
 }
 .text {
-	font-family: 'Allerta', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	color: #1B1A46;
 	margin: 0 4%;
@@ -217,7 +218,7 @@ color: black;*/
 	text-align: center;
 	height: 25px;
 	font-size: 16px;
-	font-family: 'Allerta', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: white;
 	background-color: #1B1A46;
 	border-radius: 6px;
@@ -249,7 +250,7 @@ height: 80px;
 }
 .hextags {
 	position: relative;
-	font-family: 'Allerta', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
 	color: #1B1A46;
 	z-index: 100;
@@ -280,7 +281,7 @@ height: 80px;
 		color: #c4efaa;
 		margin: 5px 0;
 		font-size: 12px;
-		font-family: 'Allerta', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 	}
 	.menu {
 		display: flex;
@@ -288,7 +289,7 @@ height: 80px;
 		justify-content: center;
 		margin-top: 10px;
 		color: #c4efaa;
-		font-family: 'Allerta', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 	}
 	.menuitems {
 		font-size: 10px;
@@ -302,7 +303,7 @@ height: 80px;
 	.lessons {
 		display: flex;
 		justify-content: center;
-		font-family: 'Allerta', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		color: #1B1A46;
 		text-shadow: 1px 1px grey;
 		font-size: 15px;
@@ -362,7 +363,7 @@ height: 80px;
 	  padding: 3px;
 	  border: #c4efaa .5px solid;
 	  border-radius: 4px;
-		font-family: 'Allerta', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 10px;
 	}
 	.allimages {
@@ -376,7 +377,7 @@ height: 80px;
 	.SPtitle {
 		display: flex;
 		justify-content: center;
-		font-family: 'Allerta', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		color: #1B1A46;
 		text-shadow: 1px 1px grey;
 		font-size: 15px;
@@ -385,20 +386,20 @@ height: 80px;
 	}
 	.SPlessons {
 		margin-top: 20px;
-		font-family: 'Allerta', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 15px;
 		color: #1B1A46;
 		margin-left: 4%;
 	}
 	.focalsentance {
 		margin: 10px 0 10px 6%;
-		font-family: 'Allerta', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 15px;
 		color: #1B1A46;
 		line-height: 1.5;
 	}
 	.text {
-		font-family: 'Allerta', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 10px;
 		color: #1B1A46;
 		margin: 0 4%;
@@ -424,7 +425,7 @@ height: 80px;
 		text-align: center;
 		height: 15px;
 		font-size: 10px;
-		font-family: 'Allerta', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		color: white;
 		background-color: #1B1A46;
 		border-radius: 4px;
@@ -518,7 +519,7 @@ height: 80px;
 		padding: 3px;
 		border: #c4efaa .5px solid;
 		border-radius: 4px;
-		font-family: 'Allerta', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 10px;
 	}
 	.allimages {
@@ -532,7 +533,7 @@ height: 80px;
 	.SPtitle {
 		display: flex;
 		justify-content: center;
-		font-family: 'Allerta', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		color: #1B1A46;
 		text-shadow: 1px 1px grey;
 		font-size: 15px;
@@ -541,20 +542,20 @@ height: 80px;
 	}
 	.SPlessons {
 		margin-top: 20px;
-		font-family: 'Allerta', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 15px;
 		color: #1B1A46;
 		margin-left: 4%;
 	}
 	.focalsentance {
 		margin: 10px 0 10px 6%;
-		font-family: 'Allerta', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 15px;
 		color: #1B1A46;
 		line-height: 1.5;
 	}
 	.text {
-		font-family: 'Allerta', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-size: 10px;
 		color: #1B1A46;
 		margin: 0 4%;
@@ -580,7 +581,7 @@ height: 80px;
 		text-align: center;
 		height: 15px;
 		font-size: 10px;
-		font-family: 'Allerta', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		color: white;
 		background-color: #1B1A46;
 		border-radius: 4px;

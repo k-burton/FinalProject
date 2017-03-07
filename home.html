@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="js/flickity.js"> -->
-    <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
   </head>
 <body>
@@ -71,7 +71,15 @@
       Mapbox Studio is not the place where you watch your analysis as it's carried out; that happens in your browser. Based on my history
       with arcGIS, my very first assumption upon opening Mapbox Studio for the first time was that this was the central location for everything
       to happen. The layers of the map are visible in the left column, and it even shows what each layer's styling is in the thumbnail. I realized after
-      some clicking around that this was not </p>
+      some clicking around that this was not where you map from, but simply where you design your style.<br><br>
+      This was the point at which I realized Mapbox was going to be a lot more unfamiliar than I had originally anticipated. I was able to complete the
+      Choropleth Map Part 1 tutorial, shown in the above image, where I styled each division of population density data by hand. The process was reaally
+      redundant compared to how it would be in ArcGIS. First, I had to make a new layer for each division of data (8 in this case) by copying the original
+      layer. Then I had to give each layer its constraints (Less than 10, 10-20, 20-50, 50-100, 100-200, 200-500, 500-1000, 1000+).
+      <br><br>
+      The darkest color is for states with a population density of 1000 people / square mile or higher; New Jersey and Rhode Island. The next darkest color
+      is for states with a population density between 500-1000 people per square mile; Massachusetts and Maryland.
+    </p>
     <div class="backtotop"><a href="">Back To Top</a></div>
   </section>
 <!-- Lesson 2 -->
@@ -102,17 +110,18 @@
       How do html code and JavaScript go together?<br>
       Where do I see what's happening to my map?<br>
       How do you access geospatial tools? And are they ready to go?<br>
-      This is where part 2 of the knowledge gap lies. Having taken a front end web development course and learning the basics of HTML CSS and JavaScript, I still haven’t bridged this part of the gap.
+      This is where part 1 of the knowledge gap lies. Having taken a front end web development course and learning the basics of HTML CSS and JavaScript, I still haven’t bridged this part of the gap.
     </p>
     <div class="backtotop"><a href="">Back To Top</a></div>
   </section>
 <!-- Lesson 4 -->
   <div class="line line4"></div>
   <section class="maincontent">
-    <h2 class="SPtitle">Lesson 4: Those basic analysis tools you’re looking for – buffer, measure, etc, etc, etc, all live in the Mapbox Turf API</h2>
+    <h2 class="SPtitle">Lesson 4: Where to find the basics</h2>
     <div class="fleximages">
       <img src="images/buffer.jpg" alt="Store Locator" class="allimages" height="400px" width="auto"></img>
     </div>
+    <h3 class="SPlessons">Those basic analysis tools you’re looking for – buffer, measure, join, classify data, statistical functions, all live in the Mapbox Turf API</h3>
     <p class="text">
       These were the first tools I went looking for, as they were the first things I learned in GIS courses. Even these
       most basic functions live in an API, and require programming.</p>
@@ -121,7 +130,7 @@
 <!-- Lesson 5 -->
   <div class="line line5"></div>
   <section class="maincontent">
-    <h2 class="SPtitle">Other Lessons</h2>
+    <h2 class="SPtitle">Lesson 5: Benefits of web-native</h2>
     <div class="fleximages">
       <img src="images/Newaddlocation.jpg" alt="Comparison" class="allimages" height="400px" width="auto"></img>
     </div>
